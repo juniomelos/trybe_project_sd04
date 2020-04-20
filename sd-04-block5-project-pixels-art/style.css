@@ -1,0 +1,35 @@
+body , html {
+  background-color: #0fa36b;
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  margin: auto;
+}
+
+.color {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: inline-block;
+  height: 40px;
+  margin: 3px;
+  width: 40px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  border-collapse: collapse;
+}
+
+.clear-board {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

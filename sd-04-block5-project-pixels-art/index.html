@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pixels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title" class="title">Paleta de Cores</h1>
+  </header>
+
+  <table id="color-palette" class="color-palette">
+    <tr>
+      <td class="color selected" id="black"></td>
+      <td class="color" id="color1"></td>
+      <td class="color" id="color2"></td>
+      <td class="color" id="color3"></td>
+    </tr>
+  </table>
+
+  <form>
+    <input type="button" id="clear-board" class="clear-board" value="Clear Board">
+
+    <input type="text" id="board-size" maxlength="2">
+  </form>
+
+  <button id="generate-board">Crie seu quadro</button>
+
+  <table id="pixel-board" class="pixel-board">
+    <tr class="linha">
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr class="linha">
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr class="linha">
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr class="linha">
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr class="linha">
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+  <footer></footer>
+</body>
+
+</html>
