@@ -1,0 +1,39 @@
+.meme {
+  height: 30px;
+  margin-left: 40px;
+  width: 30px;
+}
+
+.meme-image {
+  height: 500px;
+  visibility: visible;
+  width: 600px;
+}
+
+.meme-image-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  height: 500px;
+  position: relative;
+  text-align: center;
+  width: 600px;
+}
+
+.meme-text {
+  color: yellowgreen;
+  font-size: 50px;
+  left: 4%;
+  position: absolute;
+  top: 40%;
+  width: 90%;
+  word-wrap: break-word;
+}
+
+button {
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 5px;
+}
