@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="shortcut icon" href="fb_icon_325x325.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="menuLogin">
+        <img
+          class="facebook-logo"
+          src="facebook-logo.png"
+          alt="Ir para a página inicial do Facebook"
+        />
+        <form action="https://www.facebook.com">
+          <table>
+            <tr>
+              <td>
+                <label id="user-email-phone-label" for="user-email-phone"
+                  >Email ou telefone</label
+                >
+              </td>
+              <td><label for="pass">Senha</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  class="user-email-phone"
+                  type="email"
+                  name="user-email-phone"
+                  id="user-email-phone"
+                />
+              </td>
+              <td>
+                <input
+                  class="user-password"
+                  type="password"
+                  name="user-password"
+                  id="user-password"
+                />
+              </td>
+              <td>
+                <button id="button-login" class="button-login">Entrar</button>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><a href="#" style="color: #9cb4d8;">Esqueceu a conta?</a></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </header>
+    <main class="container">
+      <div class="mainContainer">
+        <div class="mainContainerText">
+          <div class="mainText">
+            <div class="faceText">
+              <p>
+                O Facebook ajuda você a se conectar e compartilhar com as
+                pessoas que fazem parte da sua vida.
+              </p>
+              <img
+                id="facebook-networking"
+                src="networking.png"
+                alt="Imagem Mapa Facebook"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mainRegister">
+        <div class="registerConta">
+          <div class="registerText">
+            <span>Abra uma conta</span>
+          </div>
+          <div class="textRapidoFacil">É rápido e fácil.</div>
+        </div>
+        <div class="inputRegister">
+          <input
+            class="inputName"
+            type="text"
+            name="nome"
+            placeholder="Nome"
+            size="17"
+          />
+          <input
+            class="inputName"
+            type="text"
+            name="sobrenome"
+            placeholder="Sobrenome"
+            size="17"
+          />
+          <input
+            class="inputName"
+            style="width: 377px;"
+            type="text"
+            name="email-celular"
+            placeholder="Celular ou email"
+            size="39"
+          />
+          <input
+            class="inputName"
+            style="width: 377px;"
+            type="password"
+            name="new-password"
+            size="39"
+            placeholder="Nova senha"
+          />
+          <div class="inputDataNascimentoGenero">Data de nascimento</div>
+
+          <select placeholder="Dia" name="birthday_day" id="day" title="Dia"
+            ><option value="0">Dia</option
+            ><option value="1" selected="1">1</option
+            ><option value="2">2</option
+            ><option value="3">3</option
+            ><option value="4">4</option
+            ><option value="5">5</option
+            ><option value="6">6</option
+            ><option value="7">7</option
+            ><option value="8">8</option
+            ><option value="9">9</option
+            ><option value="10">10</option
+            ><option value="11">11</option
+            ><option value="12">12</option
+            ><option value="13">13</option
+            ><option value="14">14</option
+            ><option value="15">15</option
+            ><option value="16">16</option
+            ><option value="17">17</option
+            ><option value="18">18</option
+            ><option value="19">19</option
+            ><option value="20">20</option
+            ><option value="21">21</option
+            ><option value="22">22</option
+            ><option value="23">23</option
+            ><option value="24">24</option
+            ><option value="25">25</option
+            ><option value="26">26</option
+            ><option value="27">27</option
+            ><option value="28">28</option
+            ><option value="29">29</option
+            ><option value="30">30</option
+            ><option value="31">31</option></select
+          ><select
+            placeholder="Mêss"
+            name="birthday_month"
+            id="month"
+            title="Mês"
+            ><option value="0">Mês</option
+            ><option value="1">Jan</option
+            ><option value="2">Fev</option
+            ><option value="3">Mar</option
+            ><option value="4">Abr</option
+            ><option value="5" selected="1">Maio</option
+            ><option value="6">Jun</option
+            ><option value="7">Jul</option
+            ><option value="8">Ago</option
+            ><option value="9">Set</option
+            ><option value="10">Out</option
+            ><option value="11">Nov</option
+            ><option value="12">Dez</option></select
+          ><select placeholder="Ano" name="birthday_year" id="year" title="Ano"
+            ><option value="0">Ano</option
+            ><option value="2020">2020</option
+            ><option value="2019">2019</option
+            ><option value="2018">2018</option
+            ><option value="2017">2017</option
+            ><option value="2016">2016</option
+            ><option value="2015">2015</option
+            ><option value="2014">2014</option
+            ><option value="2013">2013</option
+            ><option value="2012">2012</option
+            ><option value="2011">2011</option
+            ><option value="2010">2010</option
+            ><option value="2009">2009</option
+            ><option value="2008">2008</option
+            ><option value="2007">2007</option
+            ><option value="2006">2006</option
+            ><option value="2005">2005</option
+            ><option value="2004">2004</option
+            ><option value="2003">2003</option
+            ><option value="2002">2002</option
+            ><option value="2001">2001</option
+            ><option value="2000">2000</option
+            ><option value="1999">1999</option
+            ><option value="1998">1998</option
+            ><option value="1997">1997</option
+            ><option value="1996">1996</option
+            ><option value="1995" selected="1">1995</option
+            ><option value="1994">1994</option
+            ><option value="1993">1993</option
+            ><option value="1992">1992</option
+            ><option value="1991">1991</option
+            ><option value="1990">1990</option
+            ><option value="1989">1989</option
+            ><option value="1988">1988</option
+            ><option value="1987">1987</option
+            ><option value="1986">1986</option
+            ><option value="1985">1985</option
+            ><option value="1984">1984</option
+            ><option value="1983">1983</option
+            ><option value="1982">1982</option
+            ><option value="1981">1981</option
+            ><option value="1980">1980</option
+            ><option value="1979">1979</option
+            ><option value="1978">1978</option
+            ><option value="1977">1977</option
+            ><option value="1976">1976</option
+            ><option value="1975">1975</option
+            ><option value="1974">1974</option
+            ><option value="1973">1973</option
+            ><option value="1972">1972</option
+            ><option value="1971">1971</option
+            ><option value="1970">1970</option
+            ><option value="1969">1969</option
+            ><option value="1968">1968</option
+            ><option value="1967">1967</option
+            ><option value="1966">1966</option
+            ><option value="1965">1965</option
+            ><option value="1964">1964</option
+            ><option value="1963">1963</option
+            ><option value="1962">1962</option
+            ><option value="1961">1961</option
+            ><option value="1960">1960</option
+            ><option value="1959">1959</option
+            ><option value="1958">1958</option
+            ><option value="1957">1957</option
+            ><option value="1956">1956</option
+            ><option value="1955">1955</option
+            ><option value="1954">1954</option
+            ><option value="1953">1953</option
+            ><option value="1952">1952</option
+            ><option value="1951">1951</option
+            ><option value="1950">1950</option
+            ><option value="1949">1949</option
+            ><option value="1948">1948</option
+            ><option value="1947">1947</option
+            ><option value="1946">1946</option
+            ><option value="1945">1945</option
+            ><option value="1944">1944</option
+            ><option value="1943">1943</option
+            ><option value="1942">1942</option
+            ><option value="1941">1941</option
+            ><option value="1940">1940</option
+            ><option value="1939">1939</option
+            ><option value="1938">1938</option
+            ><option value="1937">1937</option
+            ><option value="1936">1936</option
+            ><option value="1935">1935</option
+            ><option value="1934">1934</option
+            ><option value="1933">1933</option
+            ><option value="1932">1932</option
+            ><option value="1931">1931</option
+            ><option value="1930">1930</option
+            ><option value="1929">1929</option
+            ><option value="1928">1928</option
+            ><option value="1927">1927</option
+            ><option value="1926">1926</option
+            ><option value="1925">1925</option
+            ><option value="1924">1924</option
+            ><option value="1923">1923</option
+            ><option value="1922">1922</option
+            ><option value="1921">1921</option
+            ><option value="1920">1920</option
+            ><option value="1919">1919</option
+            ><option value="1918">1918</option
+            ><option value="1917">1917</option
+            ><option value="1916">1916</option
+            ><option value="1915">1915</option
+            ><option value="1914">1914</option
+            ><option value="1913">1913</option
+            ><option value="1912">1912</option
+            ><option value="1911">1911</option
+            ><option value="1910">1910</option
+            ><option value="1909">1909</option
+            ><option value="1908">1908</option
+            ><option value="1907">1907</option
+            ><option value="1906">1906</option
+            ><option value="1905">1905</option>
+          </select>
+
+          <a
+            href="#"
+            class="interrogação"
+            alt="Clique para obter mais informações"
+            title="Clique para obter mais informações"
+          >
+            <i class="simboloInterrogação"></i>
+          </a>
+
+          <div class="containerGenero">
+            <p class="inputDataNascimentoGenero">Gênero</p>
+            <span class="spanGenero">
+              <span class="spanGeneroFemMascPerso">
+                <input
+                  type="radio"
+                  id="Feminino"
+                  name="gender"
+                  value="Feminino"
+                  class="inputGenero"
+                /><label for="Feminino" class="labelGenero">Feminino</label>
+              </span>
+
+              <span class="spanGeneroFemMascPerso">
+                <input
+                  type="radio"
+                  id="Masculino"
+                  name="gender"
+                  value="Masculino"
+                  class="inputGenero"
+                />
+                <label for="Masculino" class="labelGenero">Masculino</label>
+              </span>
+
+              <span class="spanGeneroFemMascPerso">
+                <input
+                  type="radio"
+                  id="Personalizado"
+                  name="gender"
+                  value="Personalizado"
+                  class="inputGenero"
+                />
+                <label for="Personalizado" class="labelGenero"
+                  >Personalizado</label
+                >
+              </span>
+            </span>
+            <br />
+            <a
+              href="#"
+              class="interrogação"
+              alt="Clique para obter mais informações"
+              title="Clique para obter mais informações"
+            >
+              <i class="simboloInterrogação"></i>
+            </a>
+          </div>
+
+          <div class="politicaFace">
+            <p class="politicaText">
+              Ao clicar em Cadastre-se, você concorda com nossos
+              <a href="#">Termos</a>, <a href="#">política de Dados</a> e
+              <a href="#">Política de Cookies</a>. Você pode receber
+              notificações por SMS e pode cancelar isso quando quiser.
+            </p>
+          </div>
+
+          <button id="facebook-register" class="facebookRegister">Cadastre-se</button>
+
+          <div class="criarUmaPagina">
+            <a href="#">Criar uma página</a>
+            para uma celebridade, banda ou empresa.
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="whiteFooter">
+      <footer class="footer">
+        <div class="linguage-footer">
+          <ul>
+            <li>Português (Brasil)</li>
+            <li><a href="#">English (US)</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Français (France)</a></li>
+            <li><a href="#">Italiano</a></li>
+            <li><a href="#">العربية</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">हिन्दी</a></li>
+            <li>
+              <a class="bottunSom"><strong style="color: black;">+</strong></a>
+            </li>
+          </ul>
+          <br />
+
+          <div class="hrFooter"></div>
+          <ul class="links-footer">
+            <div class="hrFooter"></div>
+            <li><a href="#">Cadastre-se</a></li>
+            <li><a href="#">Entrar</a></li>
+            <li><a href="#">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Pessoas</a></li>
+            <li><a href="#">Páginas</a></li>
+            <li><a href="#">Categorias de Página</a></li>
+            <li><a href="#">Locais</a></li>
+            <li><a href="#">Jogos</a></li>
+            <li><a href="#">Locais</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Grupos</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Campanhas de arrecadação de fundos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Criar anúncio</a></li>
+            <li><a href="#">Criar Página</a></li>
+            <li><a href="#">Desenvolvedores</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Opções de anúncio</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Ajuda</a></li>
+          </ul>
+
+          <ul class="page-footer">
+            <li>Facebook &copy 2020</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--ok  1 - Posicionamento de elementos utilizando CSS Flexbox. -->
+
+<!--ok  2 - Uma barra azul na parte superior da página do Facebook com a classe "top-bar". -->
+
+<!--ok   3 - O logotipo do Facebook no canto superior esquerdo com a classe "facebook-logo". -->
+
+<!--ok   4 - Um campo de entrada de texto no canto superior direito para receber o email ou o telefone do usuário com o id "user-email-phone". -->
+
+<!--ok   5 - Um título com o texto 'Email ou telefone' acima do campo de entrada de texto para email ou telefone com o id "user-email-phone-label". -->
+
+<!--ok   6 - Um campo de entrada de texto para digitar a senha do usuário, posicionado no canto superior direito. O campo também deve estar
+  posicionado à direita do campo de entrada de texto para email ou telefone.
+  Pontos importantes: * Ao digitar a senha, o padrão deve ser '*****'. -->
+
+<!--ok   7 - Um botão com o id "button-login" e o texto 'Entrar', à direita do campo de entrada de texto para senha.
+  Pontos importantes: * Ao clicar no botão, um alert deve ser exibido com o email ou telefone digitado pelo usuário. -->
+
+<!--ok   8 - Um texto 'O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.' abaixo da barra superior
+  azul do Facebook, no canto esquerdo. -->
+
+<!--ok   9 - Uma imagem com id "facebook-networking", que ficará abaixo do item 8. Essa imagem deve conter o mapa do mundo e as conexões entre as pessoas.
+  Pontos importantes: * Dê o nome "networking.png" para a imagem. -->
+
+<!--ok   10 - Um texto 'Abra uma conta' posicionado abaixo da caixa de texto de email/telefone. -->
+
+<!--ok   11 - Um texto 'É rápido e fácil.' posicionado abaixo do texto 'Abra uma conta'. -->
+
+<!--ok   12 - Um campo de entrada de texto para o nome do usuário. Posicione esse campo abaixo do texto 'É rápido e fácil.'.
+  Pontos importantes: * Defina o placeholder com o valor "Nome". -->
+
+<!--ok   13 - Um campo de entrada de texto para o sobrenome do usuário. Posicione esse campo à direita do campo nome.
+  Pontos importantes: * Defina o placeholder com o valor "Sobrenome". -->
+
+<!--ok   14 - Um campo de entrada de texto para o celular ou email. Posicione esse campo abaixo do sobrenome do usuário.
+  Pontos importantes: * Defina o placeholder com o valor "Celular ou email". -->
+
+<!--ok   15 - Um campo de entrada de texto para a nova senha do usuário. Posicione esse campo abaixo do celular/email.
+  Pontos importantes: * Lembre-se de respeitar a formatação de senha '*****'. * Defina o placeholder com o valor "Nova senha". -->
+
+<!--ok   16 - Um texto 'Data de nascimento' abaixo do campo de entrada de texto de nova senha. -->
+
+<!--ok   17 - Um campo para selecionar a data de nascimento.
+  Pontos importantes: * Diferentemente do Facebook, esse campo deve ser composto de um único input, e você deverá utilizar
+  alguma biblioteca para transformá-lo em um datepicker. * Defina o placeholder com o valor "dd/mm/aaaa". -->
+
+<!--ok   18 - Um texto 'Gênero' abaixo dos campos de data. -->
+
+<!--ok   19 - Três radio buttons com os nomes 'Feminino', 'Masculino' e 'Personalizado'.
+  Pontos importantes: * Posicione abaixo do texto 'Gênero'. -->
+
+<!--ok   20 - Um botão com o texto 'Cadastre-se' e id "facebook-register".
+  Pontos importantes: * Esse botão deve pegar os dados dos itens 12 até 19 e validá-los.
+  * Caso tudo esteja certo, exiba um alert com todos os dados no seguinte formato: Por exemplo:
+  Se a pessoa que usa digitar o nome "João" e selecionar "Personalizado", o conteúdo da mensagem no alert deve ser 'João - Personalizado'.
+  * Caso alguma validação dê errado, exiba um alert com a mensagem 'Dados inválidos'. -->

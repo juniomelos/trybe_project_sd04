@@ -16,7 +16,7 @@ buttonDeleteList.addEventListener('click', function () {
   const listItems = document.querySelectorAll('.listTask');
   for (let i = 0; i < listItems.length; i += 1) {
     listTask.removeChild(listItems[i]);
-  }
+}
 });
 
 listTask.addEventListener('click', function (event) {

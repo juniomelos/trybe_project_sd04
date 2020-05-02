@@ -1,0 +1,310 @@
+body {
+  background-image: linear-gradient(white, #d3d8e8);
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  border: 1px solid #133783;
+  display: flex;
+  height: 82px;
+}
+
+.facebook-logo {
+  cursor: pointer;
+  margin-top: 0;
+  width: 180px;
+}
+
+table {
+  border-collapse: separate;
+  border-color: grey;
+  border-spacing: 10px 3px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.34;
+  width: 565px;
+}
+
+.menuLogin {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  height: 65px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+.menuLogin label {
+  color: white;
+  padding-left: 1px;
+}
+
+.menuLogin td {
+  padding: 0 0 0 14px;
+}
+
+.button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color: white;
+  font-weight: 700;
+  height: 24px;
+}
+
+input {
+  border: 1px solid #ccd0d5;
+  border-color: #1d2a5b;
+  padding: 3px;
+  width: 142px;
+}
+
+.mainRegister {
+  max-width: 500px;
+}
+
+.registerConta {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.registerText {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.mainContainerText {
+  width: 40%;
+}
+
+.mainText {
+  margin-right: 15px;
+  width: 565px;
+}
+
+.faceText {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.textRapidoFacil {
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.inputName {
+  background-color: transparent;
+  border: 1px solid rgb(189, 199, 216);
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 6px;
+  outline-color: rgb(77, 144, 254);
+  padding: 8px 10px;
+  width: 180px;
+}
+
+.inputDataNascimentoGenero {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.containerGenero {
+  margin-top: 10px;
+  position: relative;
+}
+
+.spanGenero {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.spanGeneroFemMascPerso {
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 4px;
+  padding: 5px 0 5px 4px;
+}
+
+.inputGenero {
+  background-color: white;
+  color: #1c1e21;
+  width: 20px;
+}
+
+.labelGenero {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+  vertical-align: middle;
+}
+
+select {
+  background-color: white;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+}
+
+.interrogação {
+  color: #385898;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 10px;
+  max-width: 150px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.simboloInterrogação {
+  background-image: url('S2lnYAGnH35.png');
+  background-position: -22px -43px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #385898;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  height: 16px;
+  width: 16px;
+}
+
+.politicaFace {
+  width: 399px;
+}
+
+.politicaText {
+  color: #777;
+  font-size: 11px;
+  margin: 1em 0;
+  width: 316px;
+}
+
+a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.facebookRegister {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: normal;
+  line-height: 126%;
+  margin: 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.criarUmaPagina {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.footer {
+  color: #737373;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.whiteFooter {
+  background-color: white;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.linguage-footer {
+  align-items: center;
+  color: #737373;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 8px;
+}
+
+.linguage-footer li {
+  border-width: 0 0 0 1px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.hrFooter {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.page-footer {
+  color: #737373;
+  font-size: 11px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.bottunSom {
+  background-color: #f5f6f7;
+  border: 1px solid;
+  border-color: #ccd0d5;
+  border-radius: 2px;
+  color: #4b4f56;
+  font-size: 18px;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: none;
+}

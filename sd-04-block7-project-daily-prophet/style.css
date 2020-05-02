@@ -1,0 +1,83 @@
+html {
+  line-height: 1.15;
+}
+
+body {
+  background-color: black;
+  font-family: 'Vollkorn', serif;
+  font-size: 1rem;
+}
+
+.container-layout {
+  background-color: #fff8ee;
+  border-radius: 1em;
+  box-sizing: border-box;
+  column-gap: 1em;
+  display: grid;
+
+  /*
+  grid-template-columns: repeat(6, 1fr); */
+  margin: 1em auto;
+  max-width: 64em;
+  padding: 1em;
+  row-gap: 0.5em;
+}
+
+.logo-header {
+  grid-column: 1;
+  grid-column-end: 7;
+  padding-top: 0.5em;
+
+  /*
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  background-position-x: 50%; */
+}
+
+figure {
+  display: block;
+  font-family: 'Kreon', serif;
+  letter-spacing: 0.313em;
+  margin: 0.375em 0.5em 0.5em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  margin: 0;
+}
+
+.asterisco-antes {
+  font-size: 24px;
+  margin-left: -0.625em;
+  position: absolute;
+}
+
+.asterisco-depois {
+  font-size: 24px;
+  margin-left: 0.188em;
+  position: absolute;
+}
+
+hr {
+  border-bottom: 1px solid #1c1915;
+  border-top: 0.188em solid #1c1915;
+  height: 0.125em;
+  margin: 0.5em auto;
+}
+
+@media screen and ( max-width : 760px ) {
+
+  .container-layout {
+    background: yellow;
+  }
+}
+
+@media screen and ( min-width : 1170px ) {
+
+  .container-layout {
+    background: red;
+  }
+}
