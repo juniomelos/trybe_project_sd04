@@ -4,8 +4,17 @@ html {
 
 body {
   background-color: black;
-  font-family: 'Vollkorn', serif;
   font-size: 1rem;
+  margin: 2em;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 1em;
+  text-align: justify;
 }
 
 .container-layout {
@@ -14,33 +23,19 @@ body {
   box-sizing: border-box;
   column-gap: 1em;
   display: grid;
-
-  /*
-  grid-template-columns: repeat(6, 1fr); */
   margin: 1em auto;
   max-width: 64em;
   padding: 1em;
-  row-gap: 0.5em;
 }
 
 .logo-header {
-  grid-column: 1;
-  grid-column-end: 7;
+  grid-column: 1/4;
   padding-top: 0.5em;
-
-  /*
-  background-repeat: no-repeat;
-  width: 100%;
-  display: block;
-  background-position-x: 50%; */
 }
 
 figure {
-  display: block;
-  font-family: 'Kreon', serif;
   letter-spacing: 0.313em;
   margin: 0.375em 0.5em 0.5em;
-  position: relative;
   text-align: center;
   text-transform: uppercase;
 }
@@ -49,23 +44,19 @@ figure {
   margin: 0;
 }
 
-.asterisco-antes {
-  font-size: 24px;
-  margin-left: -0.625em;
-  position: absolute;
-}
-
-.asterisco-depois {
-  font-size: 24px;
-  margin-left: 0.188em;
-  position: absolute;
-}
-
 hr {
   border-bottom: 1px solid #1c1915;
   border-top: 0.188em solid #1c1915;
   height: 0.125em;
   margin: 0.5em auto;
+}
+
+footer {
+  color: #745428;
+  grid-column: 1/4;
+  margin-top: 5%;
+  padding: 1em;
+  text-align: center;
 }
 
 @media screen and ( max-width : 760px ) {
@@ -79,5 +70,58 @@ hr {
 
   .container-layout {
     background: red;
+  }
+}
+
+@media screen and ( orientation : landscape ) {
+
+  .container-orientation {
+    border: 1px solid red;
+  }
+}
+
+.imgfly {
+  width: 30%;
+}
+
+.fly {
+  animation: flying 3s steps(200, jump-none) 3s 3 alternate forwards;
+  transform: translateX(-300%);
+}
+
+@keyframes flying {
+
+  from {
+    transform: translateY(0) translateX(-200%) rotate(30deg);
+  }
+
+  to {
+    transform: translateY(500%) translateX(400%) rotate(30deg);
+  }
+}
+
+.rita {
+  text-align: center;
+  transition: transform 1s;
+}
+
+.rita:hover {
+  transform: skew(-25deg);
+}
+
+.article-animation {
+  animation: article-grow 4s linear 3 alternate paused;
+}
+
+@keyframes article-grow {
+
+  from {
+    font-weight: 100;
+    transform: scale(1);
+  }
+
+  to {
+    font-weight: 500;
+    transform: scale(1.5);
   }
 }
