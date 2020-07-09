@@ -1,0 +1,15 @@
+.category-wrap {
+  background-color: #f7f6ee;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 9px 0 -6px black;
+  font-family: Roboto , sans-serif;
+  height: fit-content;
+  padding: 10px 10px 30px 30px;
+  width: 300px;
+}
+
+.category-wrap-title {
+  font-size: 2em;
+  padding: 1em 0 0.5em 0.2em;
+  text-transform: uppercase;
+}

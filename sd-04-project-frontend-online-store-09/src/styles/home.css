@@ -1,0 +1,9 @@
+.search-bar {
+  margin-left: 100px;
+}
+
+.homepage {
+  background-color: #486d87;
+  display: flex;
+  flex-direction: row;
+}
