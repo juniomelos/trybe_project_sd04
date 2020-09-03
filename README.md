@@ -17,7 +17,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - *[Project - Guess the Color](#)*
 - *[Project - Mysterious Card](#)*
 
-## Front End development :white_check_mark:
+## Front-end development :white_check_mark:
 #### CSS Flexbox
 - *[Project - Facebook home](#)*
 #### JavaScript ES6 & Unit Tests
@@ -47,7 +47,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 ##### Final Front End Project
 - *[Project - Recipe App](#)*
 
-## Back End development :hourglass_flowing_sand:
+## Back-end development :hourglass_flowing_sand:
 ##### Introduction - Relational Databases
 - *[Project - All For One](#)*
 ##### Relational Databases
