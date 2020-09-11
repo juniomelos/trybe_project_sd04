@@ -9,38 +9,49 @@ The program has more than **1,500 hours** of classroom and online classes and co
 
 ## Introduction - Web Development :white_check_mark:
 #### HTML & CSS
-- *[Project - HTML & CSS]()*
+- *[Project - HTML & CSS](#)*
 #### JavaScript
-- *[Project - Meme Generator]()*
-- *[Project - Art with Pixels]()*
-- *[Project - To Do List]()*
-- *[Project - Guess the Color]()*
-- *[Project - Mysterious Card]()*
+- *[Project - Meme Generator](#)*
+- *[Project - Art with Pixels](#)*
+- *[Project - To Do List](#)*
+- *[Project - Guess the Color](#)*
+- *[Project - Mysterious Card](#)*
 
-## Front-end development :hourglass_flowing_sand:
+## Front-end development :white_check_mark:
 #### CSS Flexbox
-- *[Project - Facebook home]()*
+- *[Project - Facebook home](#)*
 #### JavaScript ES6 & Unit Tests
-- *[Project - JavaScript Unit Tests]()*
+- *[Project - JavaScript Unit Tests](#)*
 #### JavaScript ES6
-- *[Project - Zoo functions]()*
+- *[Project - Zoo functions](#)*
 #### Asynchronicity & Callbacks
-- *[Project - Shopping Cart]()*
+- *[Project - Shopping Cart](#)*
 #### Asynchronous Jest and Mocking
-- *[Project - Asynchronous Jest and Mocking]()*
+- *[Project - Asynchronous Jest and Mocking](#)*
 #### Introduction - React Components
-- *[Project - Movie Cards Library]()*
+- *[Project - Movie Cards Library](#)*
 #### React events and forms
-- *[Project - Movie Cards Library Stateful]()*
+- *[Project - Movie Cards Library Stateful](#)*
 #### React life cycle and Router
-- *[Project - Movie Cards Library CRUD]()*
+- *[Project - Movie Cards Library CRUD](#)*
 #### React and Agile Methodologies
-- *[Project - Frontend Online Store - group-09]()*
+- *[Project - Frontend Online Store - group-09](#)*
 #### React Testing Library
-- *[Project - React Tests]()*
+- *[Project - React Tests](#)*
 ##### React & Redux
-- *[Project - Table with database filters]()*
+- *[Project - Table with database filters](#)*
 ##### React & Redux
-- *[Project - Trivia react-redux - group-17]()*
+- *[Project - Trivia react-redux - group-17](#)*
 ##### React & Hooks
-- *[Project - Starwars datatable hooks]()*
+- *[Project - Starwars datatable hooks](#)*
+##### Final Front End Project
+- *[Project - Recipe App](#)*
+
+## Back-end development :hourglass_flowing_sand:
+##### Introduction - Relational Databases
+- *[Project - All For One](#)*
+##### Relational Databases
+- *[Project - Vocabulary Booster](#)*
+##### Relational Databases
+- *[Project - One For All](#)*
+
