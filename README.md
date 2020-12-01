@@ -50,8 +50,29 @@ The program has more than **1,500 hours** of classroom and online classes and co
 ## Back-end development :hourglass_flowing_sand:
 ##### Introduction - Relational Databases
 - *[Project - All For One](#)*
-##### Relational Databases
+##### SQL, Joins and Subqueries functions
 - *[Project - Vocabulary Booster](#)*
-##### Relational Databases
+##### Database Modeling and Standardization
 - *[Project - One For All](#)*
-
+##### Introduction to MongoDB
+- *[Project - Data Fights](#)*
+##### MongoDB: Simple and Complex Updates
+- *[Project - Commerce](#)*
+##### MongoDB: Aggregation Framework
+- *[Project - Aggregations](#)*
+##### Introduction to Web development with NodeJS
+- *[Project - Crush Manager](#)*
+##### NodeJS: Rest and Restful Service Layer and Architecture
+- *[Project - Store Manager](#)*
+##### File Authentication and Upload
+- *[Project - Cookmaster](#)*
+##### Deployment
+- *[Project - Stranger things](#)*
+##### Project Trybeer
+- *[Project - Trybeer](#)*
+##### Architecture: SOLID and ORM
+- *[Project - Blogs API](#)*
+##### Sockets
+- *[Project - Webchat](#)*
+##### Project Trybeer II
+- *[Project - Trybeer V2](#)*
