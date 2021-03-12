@@ -21,11 +21,11 @@ def csv_exporter(filepath):
     with open(filepath, "w", newline="", encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=FIELD_HEADER, delimiter=";")
 
-        header = find_news()
-        for field in header:
+        data = find_news()
+        for field in data:
             for key in field:
                 if type(field[key]) == list:
                     field[key] = ",".join(field[key])
 
         writer.writeheader()
-        writer.writerows(header)
+        writer.writerows(data)
