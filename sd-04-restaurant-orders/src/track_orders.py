@@ -1,4 +1,4 @@
-# from analyze_log import ordered_dish_per_costumer
+from analyze_log import ordered_dish_per_costumer
 # from analyze_log import order_frequency_per_costumer
 from collections import defaultdict
 

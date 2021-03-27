@@ -1,21 +1,20 @@
-def string_sort(string):
-    array = [letter for letter in string]
-    for i in range(len(array)):
-        minimum = i
-
-        for j in range(i + 1, len(array)):
-            if array[j] < array[minimum]:
-                minimum = j
-
-        array[minimum], array[i] = array[i], array[minimum]
-
-    return "".join(array)
+def my_sorted(word):
+    for i in range(len(word)):
+        actual_value = word[i]
+        position = i
+        while (
+            position > 0
+            and word[position - 1] > actual_value
+        ):
+            word[position] = word[position - 1]
+            position = position - 1
+        word[position] = actual_value
+    return word
 
 
 def is_anagram(first_string, second_string):
-    first_string_sorted = string_sort(first_string)
-    second_string_sorted = string_sort(second_string)
-    if first_string_sorted == second_string_sorted:
+    if len(first_string) != len(second_string):
+        return False
+    if my_sorted(list(first_string)) == my_sorted(list(second_string)):
         return True
     return False
-    # return True if first_string_sorted == second_string_sorted else False
